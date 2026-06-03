@@ -1,7 +1,7 @@
 export default function PostMonitor() {
   return (
     <>
-      <p>Hello</p>
+      <h2>I am the PostMonitor Component</h2>
     </>
   );
 }

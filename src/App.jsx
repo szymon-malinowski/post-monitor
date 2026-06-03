@@ -6,10 +6,11 @@ function App() {
   return (
     <>
       <header></header>
-      <main>
+      <main className="flex justify-center items-center flex-wrap">
         <h1>Post Monitor</h1>
+        <PostMonitor />
       </main>
-      <PostMonitor />
+      <footer></footer>
     </>
   );
 }

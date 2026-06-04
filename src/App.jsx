@@ -7,7 +7,6 @@ function App() {
     <>
       <header></header>
       <main className="flex flex-col justify-center items-center flex-wrap">
-        <h1>Post Monitor</h1>
         <PostMonitor />
       </main>
       <footer></footer>

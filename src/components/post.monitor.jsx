@@ -1,7 +1,11 @@
+import React, { useState, useEffect } from "react";
+
 export default function PostMonitor() {
+  const [searchTerm, setSearchTerm] = useState("");
+
   return (
     <>
-      <h2>I am the PostMonitor Component</h2>
+      <h1>Post Monitor</h1>
     </>
   );
 }

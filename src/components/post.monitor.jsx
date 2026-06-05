@@ -11,9 +11,14 @@ export default function PostMonitor() {
       document.title = searchTerm;
     }
   }, [searchTerm]);
+
+  function handleSearchTerm() {
+    setSearchTerm
+  }
   return (
     <>
       <h1>Post Monitor</h1>
+
     </>
   );
 }

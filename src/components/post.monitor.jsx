@@ -5,7 +5,7 @@ export default function PostMonitor() {
   const [searchTerm, setSearchTerm] = useState("");
 
   const defaultTitle = "Post Monitor";
-  document.title = defaultTitle;
+
   useEffect(() => {
     if (searchTerm.trim() === "") {
       document.title = defaultTitle;

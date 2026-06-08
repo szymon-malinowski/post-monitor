@@ -1,17 +1,10 @@
-import { useState } from "react";
-import "./App.css";
+import React from "react";
 import PostMonitor from "./components/post.monitor";
 
-function App() {
+export default function App() {
   return (
-    <>
-      <header></header>
-      <main className="flex flex-col justify-center items-center flex-wrap">
-        <PostMonitor />
-      </main>
-      <footer></footer>
-    </>
+    <main>
+      <PostMonitor />
+    </main>
   );
 }
-
-export default App;
